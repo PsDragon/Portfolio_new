@@ -41,6 +41,7 @@ img::selection { background: transparent; }
 }
 .masthead { text-align: center; color: black; position: relative; overflow: hidden; }
 .parallax { background-image: url("../img/overview_RGG_faded.png"); min-height: 100px; background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; }
+.parallaxservice { background-image: url("../img/parallax/Untitled\ design\ \(6\).png"); min-height: 500px; background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; }
 .parallaxwebsite { background-image: url("../img/parallax/poster_zoom_fadded.png"); min-height: 500px; background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; }
 .parallaxcontact { background-image: url("../img/parallax/surf_fading.png"); min-height: 500px; background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; }
 .parallaxposter { background-image: url("../img/parallax/poster_zoom_fadded.png"); min-height: 500px; background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; }
@@ -132,6 +133,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .dropdown-item { margin-left: 30px; }
 .cardtitle { color: orange; text-align: left; }
 #particles-js { width: 100%; height: 900px; background-color: white; background-image: url(""); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; }
+#particles-js1 { width: 100%; height: 900px; background-color: white; background-image: url(""); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; }
 .blogtitle { font-size: 23px; color: black; font-weight: 400; }
 .blogfeature { font-size: 12px; color: grey; }
 .blogtext { font-size: 18px; color: black; font-weight: 100; }
