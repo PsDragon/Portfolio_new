@@ -154,7 +154,7 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
 .dropdown-submenu.pull-left > .dropdown-menu { left: -100%; margin-left: 10px; border-radius: 6px 0px 6px 6px; }
 .data-tooltip { color: black; background: white; margin-right: 10%; margin-left: 10%; }
 .tooltip.show { opacity: 1; background-color: white; border: green; }
-.portfolio-modal .modal-dialog { margin: 3rem; max-width: 100vw; max-height: 95vh; overflow-y: auto; }
+.portfolio-modal .modal-dialog { margin: 3rem; max-width: 100vw; max-height: 95vh; overflow-y: initial !important; }
 @media (min-width: 1000px) {
   .portfolio-modal .modal-dialog { max-width: 70vw; }
 }
