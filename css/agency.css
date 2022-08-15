@@ -54,20 +54,95 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
   header.masthead .intro-text .intro-heading { font-size: 75px; font-weight: 700; line-height: 75px; margin-bottom: 50px; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 }
 .service-heading { margin: 15px 0px; }
-#portfolio .portfolio-item { right: 0px; margin: 0px 0px 15px; }
-#portfolio .portfolio-item .portfolio-link { position: relative; display: block; margin: 0px auto; cursor: pointer; border-radius: 2%; }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover { position: absolute; width: 100%; height: 100%; transition: all 1s ease 0s; opacity: 0; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 2%; background-color: #C053F9 !important; }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover { opacity: 0.8; }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content { font-size: 22px; position: absolute; top: 20%; width: 100%; height: 20px; margin-top: -12px; text-align: center; color: white; }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i { margin-top: -12px; }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 { margin: 0px; }
-#portfolio .portfolio-item .portfolio-caption { max-width: 400px; margin: 0px auto; padding: 25px; text-align: center; }
-#portfolio .portfolio-item .portfolio-caption h4 { margin: 0px; text-transform: none; }
-#portfolio .portfolio-item .portfolio-caption p { font-size: 16px; font-style: italic; margin: 0px; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-#portfolio * { z-index: 2; }
-@media (min-width: 767px) {
-  #portfolio .portfolio-item { margin: 0px 0px 30px; }
+
+#portfolio .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
 }
+
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 2%;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 1s;
+  -moz-transition: all ease 1s;
+  transition: all ease 1s;
+  opacity: 0;
+  background: rgba(88, 170, 151, 0.7);
+  border-radius: 2%;
+  background-color: #C053F9 !important;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 0.8;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  height: 5px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: 'none';
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+
+.column {
+    display: none; /* Hide all elements by default */
+}
+.show {
+  display: block;
+}
+
 .column { display: none; }
 .show { display: block; }
 .dropdown-submenu { position: relative; }
@@ -454,3 +529,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
+.img-fluid1{width: 100%;height:auto;}
+.img-fluid{width: 100%;height:auto; border-radius: 15px;}
+.row1{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;justify-content: flex-start; align-items: flex-end;}
+.row2{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;justify-content: space-around; align-items: flex-end;}
