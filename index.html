@@ -93,21 +93,29 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
+          <li class="nav-item" style="color: white;" class="text-uppercase" onchange="trans(this)">
+            <select id="myselection" class="nav-link js-scroll-trigger" class="text-uppercase">
+            <option value="english" class="text-uppercase"> ENGLISH </option>
+            <option value="dutch" class="text-uppercase">DUTCH</option>
+          </select>
+
+        </li>    
+
+        <script>
+  // Replace the first "Hello"
+  // in the page with "Hi"
+      function trans(menu) {
+      if (menu.value == 'english') {
+    //do something
+    document.body.innerHTML = document.body.innerHTML.replace("Anouk", "Tess");
+  } else if (menu.value == 'dutch') {
+    //do something
+    document.body.innerHTML = document.body.innerHTML.replace("Tess", "Anouk");}}
+        </script> 
         </ul>
       </div>
     </div>
   </nav>
-
-
-
-
-
-
-
-
-
-
-
 
   <!-- =======================  LANDING SECTION ======================= -->
 
@@ -236,7 +244,7 @@
         <div class="col-lg-3 text-center">
           <a data-toggle="modal" href="#dataManagement"><i class="fa fa-wrench services-logo"></i></a>
           <a data-toggle="modal" href="#dataManagement">
-            <h4>Data Management</h4>
+            <h4>DBMS</h4>
           </a>
           <p>Data harvesting, cleaning and reshaping. Development of automated workflows.</p>
           <a data-toggle="modal" href="#dataManagement" style="font-size: 23px">+</a>
@@ -867,7 +875,7 @@
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <i class="fa fa-wrench services-logo"></i>
-                  <h4>Data Management</h4>
+                  <h4>Data Management System</h4>
                   <p style="max-width: 600px">A data project always start with a data engineering step. You need to
                     harvest data and store it in an adequate format to be able to use it.</p>
                   <div style="text-align: left">
