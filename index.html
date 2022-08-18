@@ -649,7 +649,7 @@
                   </i> database<br></p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/Dashboardd_mockup.png" alt="">
+            <img class="img-fluid" src="img/portfolio/Dashboardd_mockup.jpeg" alt="">
           </a>
         </div>
 
@@ -735,46 +735,6 @@
 
 
 
-
-
-
-
-
-  <!-- ======================== MAP SECTION ============================ -->
-
-  <style>
-    /* Set the size of the div element that contains the map */
-    #map {
-      height: 300px;
-      /* The height is 400 pixels */
-      width: 100%;
-      /* The width is the width of the web page */
-      background-color: grey;
-      opacity: 1
-    }
-  </style>
-  <!-- center: { lat: 43.61092, lng: 3.87723 } -->
-
-  <!--The div element for the map -->
-  <div id="map"></div>
-  <script>
-    var mymap = L.map('map').setView([51.69026, 4.93935], 3);
-    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-      maxZoom: 11,
-      id: 'mapbox/streets-v11',
-      tileSize: 512,
-      zoomOffset: -1,
-      accessToken: 'pk.eyJ1IjoiaG9sdHp5YW4iLCJhIjoiY2tmczBrd3BrMGJodDJ0bXQ5aW9sZXJ6eCJ9.8zTEkfZ54u4TvDGNjNh-Cg'
-    }).addTo(mymap);
-    var marker = L.marker([51.69026, 4.93935]).addTo(mymap);
-  </script>
-
-
-
-
-
-
   <!-- ======================= FOOTER SECTION ================================ -->
   <footer>
     <div class="container">
@@ -847,8 +807,6 @@
                       databases or messy <code>Excel</code> spreadsheets.</li>
                     <li><u>Reformat</u> and reshape data to make further analyses easier.</li>
                     <li><u>Clean</u> datasets removing outliers and abberant data.</li>
-                    <li>Create reproducible data preparation <u>workflows</u></li>
-                    <li><u>Automatize</u> the creation of data related reports</li>
                     </ul>
                     <br>
                     <h6>Example:</h6>
@@ -903,7 +861,6 @@
 														<li><u>Exploratory analysis</u> of a dataset.</li>
 														<li>Creation of clean and reproducible <u>reports</u> using <code>Google Colab</code>.</li>
 														<li>Application of <u>statistical methods</u> on your dataset.</li>
-														<li>Creation of <u>custom scripts</u> for analysing your data automatically</li>
 														</ul>
 														<br>
 														<h6>Example:</h6>
@@ -955,7 +912,6 @@
 														<hr>
 														<ul>
 														<li>Creation and review of graphs for <u>your project</u>.</li>
-														<li>Development of <u>data application</u> using <code>R</code> and <code>Shiny</code>.</li>
 														<li><u>Dashboard</u> creation for real time data analysis using <code> Power BI</code></li>
 														<li>Visualization of <u>geospatial</u> data.</li>
 														</ul>
@@ -999,7 +955,7 @@
             <div class="row">
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
-                  <img src="img/portfolio/Dashboardd_mockup.png" width="225px"; style="border-radius: 15px";></img>
+                  <img src="img/portfolio/Dashboardd_mockup.jpeg" width="225px"; style="border-radius: 15px";></img>
                   <h4>Dashboard for the municipality of Oosterhout.</h4>
                   <p style="max-width: 600px">A Power BI dashboard allowing to visualize the youth care distribution of Oosterhout.</p>
                   <a style="margin-top: 0px" class="btn btn-secondary btn text-uppercase js-scroll-trigger"
@@ -1195,7 +1151,7 @@
                       <p>Deep Embedded Clustering (DEC) is a method that simultaneously learns feature representations and cluster assignments using deep neural networks. DEC learns a mapping from the data space to a lower-dimensional feature space in which it iteratively optimizes a clustering objective. </p>
                       <p>One of the key components in the DEC method is soft labeling, that is, assigning an estimated class to each of the data samples in such a way that it can be refined iteratively. To this end, a new ClusteringLayer class is defined which converts an input sample (aka feature) to a soft label.
                       </p>
-                      <p>The Deep Embedded Clustering was used for this project. The source code
+                      <p>The Deep Embedded Clustering method was used for this project. The source code
                         of the project are of course on <a
                           href="https://github.com/PsDragon/Portfolio_new/blob/main/documents/Notebooks/Deep%20Clustering.ipynb">Github</a>. The source code contains the Deep Embedded Clustering method to use the data from Breda to cluster the neighborhoods of Breda. It was implemented in the Power BI dashboard.</p>
                     <h6>Read more</h6>

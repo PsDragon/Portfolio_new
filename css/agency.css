@@ -4,11 +4,11 @@ a { color: #C053F9; }
 a:hover { color: #C053F9 }
 .text-primary { color: #C053F9 !important; }
 h1, h2, h3, h4, h5, h6 { font-weight: 10; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-section { padding: 50px 0px; }
+section { padding: 30px 0px; }
 section h2.section-heading { font-size: 40px; margin-top: 0px; margin-bottom: 15px; }
 section h3.section-subheading { font-size: 16px; font-weight: 400; font-style: italic; margin-bottom: 45px; text-transform: none; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 @media (min-width: 768px) {
-  section { padding: 75px 0px; }
+  section { padding: 30px 0px; }
 }
 u { padding-bottom: 3px; text-decoration: none; border-bottom: 1px solid rgb(0, 0, 0); }
 @media (max-width: 1200px) {
@@ -548,6 +548,17 @@ outline: none !important}
 
 @media only screen and (max-width: 600px) {  
   .videoobject video{
+  width: 100%;
+  height: auto;}
+} 
+
+.videoobject1 video{
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: 33%;
+  height: auto;}
+
+@media only screen and (max-width: 600px) {  
+  .videoobject1 video{
   width: 100%;
   height: auto;}
 } 
