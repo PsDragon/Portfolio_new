@@ -717,7 +717,7 @@ outline: none !important}
 @media only screen and (max-width: 600px) {
   .middle p {width: 150%; position: relative; right: 26%; top:25%;}
   .middle div {width: 150%; position: relative; right: 26%;}
-    .portfolio-modal .modal-content p {
+  .portfolio-modal .modal-content p {
       margin-bottom: 0px;} 
 } 
 
