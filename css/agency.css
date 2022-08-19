@@ -169,7 +169,7 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
 .portfolio-modal .modal-content ul.list-inline { margin-top: 0px; margin-bottom: 30px; }
 .portfolio-modal .modal-content img { margin-bottom: 30px; }
 .portfolio-modal .modal-content button { cursor: pointer; }
-.portfolio-modal .close-modal { position: absolute; top: 25px; right: 25px; width: 75px; height: 75px; cursor: pointer; background-color: transparent; }
+.portfolio-modal .close-modal { position: absolute; top: 15px; right: 25px; width: 75px; height: 75px; cursor: pointer; background-color: transparent; }
 .portfolio-modal .close-modal:hover { opacity: 0.3; }
 .portfolio-modal .close-modal .lr { z-index: 1051; width: 1px; height: 75px; margin-left: 35px; transform: rotate(45deg); background-color: rgb(33, 37, 41); }
 .portfolio-modal .close-modal .lr .rl { z-index: 1052; width: 1px; height: 75px; transform: rotate(90deg); background-color: rgb(33, 37, 41); }
@@ -733,3 +733,10 @@ outline: none !important}
 } 
 
 .row3{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;justify-content: normal; align-items: flex-end;}
+
+@media only screen and (max-width: 600px) {
+.portfolio-modal .close-modal { position: absolute; top: 15px; right: 5px; width: 25px; height: 25px; cursor: pointer; background-color: transparent; }
+.portfolio-modal .close-modal:hover { opacity: 0.3; }
+.portfolio-modal .close-modal .lr { z-index: 1051; width: 1px; height: 35px; margin-top: -11px; margin-left: -4px; transform: rotate(45deg); background-color: rgb(33, 37, 41); }
+.portfolio-modal .close-modal .lr .rl { z-index: 1052; width: 1px; height: 35px; transform: rotate(90deg); background-color: rgb(33, 37, 41); }
+}
