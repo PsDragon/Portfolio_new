@@ -210,7 +210,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .blogfeature { font-size: 12px; color: grey; }
 .blogtext { font-size: 18px; color: black; font-weight: 100; }
 .blogreadmore { font-size: 18px; color: #C053F9; font-weight: 300; }
-.textlanding { color: black; position: absolute; top: 50%; right: 50%; transform: translate(50%, -50%); max-width: 600px; padding: 4em 3em; }
+.textlanding { color: black; position: absolute; top: 45%; right: 50%; transform: translate(50%, -50%); max-width: 600px; padding: 4em 3em; }
 .arrowlanding { color: black; position: absolute; top: 98%; right: 50%; margin-top: auto; transform: translate(50%, -50%); max-width: 600px; padding: 4em 3em; }
 
 .w3-badge,.w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.w3-badge{border-radius:50%}
@@ -819,4 +819,11 @@ outline: none !important}
   .container-box {
     margin: 20px 0;
   }
+}
+
+p#name {padding-left: 25px;}
+
+@media screen and (max-width: 968px) {
+  #particles-js { width: 100%; height: 1095px; background-color: white; background-image: url(""); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; }
+  p#name {padding-left: 0px;}
 }
